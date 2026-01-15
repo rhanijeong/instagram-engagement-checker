@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Instagram Engagement Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="search-box">
+    <input id="instaUrl" type="text" placeholder="인스타그램 계정 URL 입력" />
+    <button onclick="search()">검색</button>
+  </div>
+
+  <h2 class="title">채널 평균 인게이지먼트</h2>
+
+  <div class="cards">
+    <div class="card">
+      <span>평균 조회수</span>
+      <strong id="avgViews">0</strong>
+    </div>
+    <div class="card">
+      <span>평균 좋아요 수</span>
+      <strong id="avgLikes">0</strong>
+    </div>
+    <div class="card">
+      <span>평균 댓글 수</span>
+      <strong id="avgComments">0</strong>
+    </div>
+    <div class="card">
+      <span>평균 반응 수</span>
+      <strong id="avgEngagement">0</strong>
+    </div>
+  </div>
+
+  <script src="mock.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
